@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spensol IT Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            background: #000000;
+            color: #ffffff;
+        }
+
+        header {
+            background: #f59a07;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        .hero {
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+            background-size: cover;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 450px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background: #f59a07;
+            padding: 12px 25px;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+
+
+        .service-boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .service {
+            padding: 25px;
+            border-radius: 10px;
+            background: #1c1a1a;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .service:hover {
+            transform: translateY(-5px) scale(1.03);
+            box-shadow: 0 0 20px #f59a07, 0 0 40px rgba(245, 154, 7, 0.6);
+            outline: 2px solid #f59a07;
+            /* prevents layout shift */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Spensol Creatives</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="#">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+
+
+<section class="contact-section">
+  <div class="contact-container">
+
+    <!-- LEFT : CONTACT INFO -->
+    <div class="contact-info">
+      <h2>GET IN TOUCH WITH US</h2>
+      <p>
+        We’re always ready to assist with your business and technology needs.
+        Have a question, need a quote, or want to start a project?
+        Just reach out — our team is happy to help anytime.
+      </p>
+
+      <div class="info-list">
+        <div class="info-item">
+          <span class="info-icon"><i class="fas fa-map-marker-alt"></i></span>
+          <div>
+            <h4>Address</h4>
+            <p>Thrissur, Kerala, India</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon"><i class="fas fa-envelope"></i></span>
+          <div>
+            <h4>Email</h4>
+            <p>info@spensol.com</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon"><i class="fas fa-phone-alt"></i></span>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 9XXXXXXXXX</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon"><i class="fas fa-clock"></i></span>
+          <div>
+            <h4>Office Hours</h4>
+            <p>9:00 am to 6:00 pm <br> Mon - Sat</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT : CONTACT FORM -->
+    <div class="contact-form">
+      <h2>Send us a message</h2>
+      <p class="form-subtitle">We’re just a message away 🚀</p>
+
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name">
+        </div>
+
+        <input type="email" placeholder="Email *" required>
+        <input type="tel" placeholder="Mobile Number *" required>
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+<section class="map-section">
+  <iframe 
+    src="https://www.google.com/maps?q=Thrissur,Kerala,India&output=embed"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- BRAND -->
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-icon">S</span>
+                    <span class="logo-text">Spensol</span>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ut elit tellus luctus.
+                </p>
+
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+
+            <!-- SERVICES -->
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Website Development</a></li>
+                    <li><a href="#">Software Development</a></li>
+                    <li><a href="#">Web Application Development</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                </ul>
+            </div>
+
+            <!-- COMPANY -->
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Google Map -->
+            <div class="footer-col">
+                <h4>Location</h4>
+                <ul>
+                    <li class="map-box">
+                        <iframe src="https://www.google.com/maps?q=Thrissur,Kerala,India&output=embed" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Spensol Creatives. All rights reserved.
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

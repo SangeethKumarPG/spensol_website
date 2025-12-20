@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spensol IT Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            background: #000000;
+            color: #ffffff;
+        }
+
+        header {
+            background: #f59a07;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        .hero {
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+            background-size: cover;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 450px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background: #f59a07;
+            padding: 12px 25px;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+
+
+        .service-boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .service {
+            padding: 25px;
+            border-radius: 10px;
+            background: #1c1a1a;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .service:hover {
+            transform: translateY(-5px) scale(1.03);
+            box-shadow: 0 0 20px #f59a07, 0 0 40px rgba(245, 154, 7, 0.6);
+            outline: 2px solid #f59a07;
+            /* prevents layout shift */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Spensol Creatives</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="#">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+<section class="page-hero">
+        <div class="page-hero-overlay"></div>
+
+        <div class="page-hero-content">
+            <h1>Service</h1>
+            <p>Your Trusted IT Partner in India</p>
+        </div>
+    </section>
+
+
+
+
+<section class="lux-services">
+  <div class="lux-container">
+
+    <!-- Section Header -->
+    <div class="lux-header">
+      <h2>Our Elite Services</h2>
+      <div class="lux-line"></div>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="lux-grid">
+
+      <!-- Card 1 -->
+      <div class="lux-card">
+        <div class="lux-image">
+          <img src="assets/images/image1.png" alt="Web Development">
+        </div>
+        <div class="lux-content">
+          <h3>Advanced Web Solutions</h3>
+          <p>High-performance, scalable websites built to elevate your brand online.</p>
+          <a href="#" class="lux-link">Discover More →</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="lux-card">
+        <div class="lux-image">
+          <img src="assets/images/image1.png" alt="Mobile App Development">
+        </div>
+        <div class="lux-content">
+          <h3>Mobile App Innovation</h3>
+          <p>Intuitive Android & iOS apps delivering smooth and powerful experiences.</p>
+          <a href="#" class="lux-link">Discover More →</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="lux-card">
+        <div class="lux-image">
+          <img src="assets/images/image1.png" alt="UI UX Design">
+        </div>
+        <div class="lux-content">
+          <h3>UI/UX Excellence</h3>
+          <p>Premium interface designs focused on usability, beauty, and conversion.</p>
+          <a href="#" class="lux-link">Discover More →</a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="lux-card">
+        <div class="lux-image">
+          <img src="assets/images/image1.png" alt="Digital Marketing">
+        </div>
+        <div class="lux-content">
+          <h3>Digital Growth Engine</h3>
+          <p>SEO, paid ads, and branding strategies that scale your business faster.</p>
+          <a href="#" class="lux-link">Discover More →</a>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="lux-card">
+        <div class="lux-image">
+          <img src="assets/images/image1.png" alt="Branding">
+        </div>
+        <div class="lux-content">
+          <h3>Creative Brand Identity</h3>
+          <p>Luxury branding and graphics that make your business unforgettable.</p>
+          <a href="#" class="lux-link">Discover More →</a>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="lux-card">
+        <div class="lux-image">
+          <img src="assets/images/image1.png" alt="Web Development">
+        </div>
+        <div class="lux-content">
+          <h3>Advanced Web Solutions</h3>
+          <p>High-performance, scalable websites built to elevate your brand online.</p>
+          <a href="#" class="lux-link">Discover More →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+    <section class="cta-video-section">
+  <!-- Background Video -->
+  <video autoplay muted loop playsinline class="cta-video">
+    <source src="assets/video/grain.mp4" type="video/mp4">
+  </video>
+
+  <!-- Overlay -->
+  <div class="cta-overlay"></div>
+
+  <!-- Content -->
+  <div class="cta-video-content">
+    <span class="cta-label">LET’S WORK TOGETHER</span>
+    <h2>Ready to Build Something<br>Exceptional?</h2>
+    <p>
+      Partner with us to create high-performance digital solutions
+      that elevate your brand and drive measurable results.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="tel:+91**********" class="cta-btn primary">Contact Now</a>
+      <a href="services.html" class="cta-btn secondary">View Services</a>
+    </div>
+  </div>
+</section>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- BRAND -->
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-icon">S</span>
+                    <span class="logo-text">Spensol</span>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ut elit tellus luctus.
+                </p>
+
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+
+            <!-- SERVICES -->
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Website Development</a></li>
+                    <li><a href="#">Software Development</a></li>
+                    <li><a href="#">Web Application Development</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                </ul>
+            </div>
+
+            <!-- COMPANY -->
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Google Map -->
+            <div class="footer-col">
+                <h4>Location</h4>
+                <ul>
+                    <li class="map-box">
+                        <iframe src="https://www.google.com/maps?q=Thrissur,Kerala,India&output=embed" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Spensol Creatives. All rights reserved.
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

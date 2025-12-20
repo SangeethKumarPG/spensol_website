@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spensol IT Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            background: #000000;
+            color: #ffffff;
+        }
+
+        header {
+            background: #f59a07;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        .hero {
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+            background-size: cover;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 450px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background: #f59a07;
+            padding: 12px 25px;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+
+
+        .service-boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .service {
+            padding: 25px;
+            border-radius: 10px;
+            background: #1c1a1a;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .service:hover {
+            transform: translateY(-5px) scale(1.03);
+            box-shadow: 0 0 20px #f59a07, 0 0 40px rgba(245, 154, 7, 0.6);
+            outline: 2px solid #f59a07;
+            /* prevents layout shift */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Spensol Creatives</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="#">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="page-hero">
+        <div class="page-hero-overlay"></div>
+
+        <div class="page-hero-content">
+            <h1>About Us</h1>
+            <p>Your Trusted IT Partner in India</p>
+        </div>
+    </section>
+
+
+
+    <section class="about-section">
+        <div class="about-container">
+
+            <!-- LEFT CONTENT -->
+            <div class="about-content">
+                <span class="about-label">ABOUT SPENSOL CREATIVES</span>
+                <h2>
+                    Premium Digital Solutions.<br>
+                    Fast & Reliable.
+                </h2>
+
+                <p>
+                    We believe that powerful digital experiences create confidence and
+                    trust in today’s competitive market. With a passion for innovation
+                    and a commitment to excellence, we deliver professional IT and
+                    creative solutions tailored for modern businesses.
+                </p>
+
+                <p>
+                    Since our establishment, we’ve built a reputation for quality,
+                    reliability, and performance. From websites and applications to
+                    branding and digital marketing, every project is handled with
+                    precision, creativity, and care.
+                </p>
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div class="about-image">
+                <img src="assets/images/image1.png" alt="About Spensol Creatives">
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="vmv-section">
+        <div class="vmv-container">
+
+            <!-- VISION -->
+            <div class="vmv-card">
+                <div class="vmv-icon">
+                    <i class="fa-solid fa-cube"></i>
+                </div>
+                <h3>VISION</h3>
+                <p>
+                    To be the leading provider of environmentally responsible solutions,
+                    pioneering innovation, efficiency, and industry standards that
+                    support a cleaner, more sustainable future.
+                </p>
+            </div>
+
+            <!-- MISSION -->
+            <div class="vmv-card">
+                <div class="vmv-icon circle">
+                    <i class="fa-solid fa-bullseye"></i>
+                </div>
+                <h3>MISSION</h3>
+                <p>
+                    To deliver reliable, transparent, and sustainable services through
+                    operational excellence, advanced capabilities, and a strong
+                    commitment to safety, responsibility, and customer satisfaction.
+                </p>
+            </div>
+
+            <!-- VALUES -->
+            <div class="vmv-card">
+                <div class="vmv-icon shield">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h3>VALUES</h3>
+                <p>
+                    Guided by integrity, excellence, innovation, and sustainability,
+                    we strive to deliver disciplined quality and long-term success
+                    for our clients and communities.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="why-choose">
+        <div class="why-container">
+
+            <!-- LEFT IMAGE -->
+            <div class="why-image">
+                <img src="assets/images/image1.png" alt="Professional Service">
+            </div>
+
+            <!-- RIGHT CONTENT -->
+            <div class="why-content">
+                <span class="why-label">WHY CHOOSE US</span>
+                <h2>Trust the professionals for a clean and polished finish</h2>
+
+                <div class="why-grid">
+
+                    <div class="why-item">
+                        <i class="fa-solid fa-user-check"></i>
+                        <h4>Expertise</h4>
+                        <p>Trusted professionals with extensive experience in premium services.</p>
+                    </div>
+
+                    <div class="why-item">
+                        <i class="fa-solid fa-gem"></i>
+                        <h4>Quality Service</h4>
+                        <p>Customer-first approach with attention to every detail.</p>
+                    </div>
+
+                    <div class="why-item">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h4>Reliability</h4>
+                        <p>Consistent and dependable services you can always trust.</p>
+                    </div>
+
+                    <div class="why-item">
+                        <i class="fa-solid fa-tags"></i>
+                        <h4>Competitive Pricing</h4>
+                        <p>Fair and transparent pricing with maximum value.</p>
+                    </div>
+
+                    <div class="why-item">
+                        <i class="fa-solid fa-eye"></i>
+                        <h4>Transparent Operations</h4>
+                        <p>Clear communication and honest service delivery.</p>
+                    </div>
+
+                    <div class="why-item">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <h4>Great Results</h4>
+                        <p>Professional results that exceed expectations.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="testimonials-section">
+        <div class="testimonials-container">
+
+            <!-- LEFT -->
+            <div class="testimonials-left">
+                <span class="testimonials-label">TESTIMONIALS</span>
+                <h2>What Our Clients Say<br>About Us</h2>
+                <p>
+                    Real feedback from our clients who trust us for quality,
+                    reliability, and professional service delivery.
+                </p>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="testimonials-right">
+                <div class="testimonial-track">
+
+                    <!-- 1 -->
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>
+                            The team delivered beyond expectations. Clean execution,
+                            timely delivery, and excellent communication throughout.
+                        </p>
+                        <div class="author">
+                            <img src="assets/images/user1.jpg" alt="">
+                            <div>
+                                <h4>John Doe</h4>
+                                <span>Founder, TechCorp</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>
+                            Professional and reliable service. Their attention to
+                            detail truly sets them apart in the industry.
+                        </p>
+                        <div class="author">
+                            <img src="assets/images/user2.jpg" alt="">
+                            <div>
+                                <h4>Sarah Khan</h4>
+                                <span>Operations Manager</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>
+                            Smooth experience from start to finish. Highly recommended
+                            for businesses looking for premium quality.
+                        </p>
+                        <div class="author">
+                            <img src="assets/images/user3.jpg" alt="">
+                            <div>
+                                <h4>Michael Lee</h4>
+                                <span>Startup Founder</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="faq-section">
+        <div class="faq-container">
+
+            <div class="faq-header">
+                <span class="faq-label">FAQ</span>
+                <h2>Frequently Asked Questions</h2>
+                <p>
+                    Find quick answers to common questions about our services,
+                    process, and support.
+                </p>
+            </div>
+
+            <div class="faq-list">
+
+                <div class="faq-item active">
+                    <button class="faq-question">
+                        What services do you offer?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        We provide end-to-end IT solutions including website
+                        development, UI/UX design, branding, maintenance, and
+                        technical support.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How long does a project take?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Project timelines depend on scope and complexity. Most
+                        projects are completed within 2–6 weeks.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you offer post-launch support?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Yes, we provide ongoing support, updates, and maintenance
+                        packages to ensure smooth performance.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How can I get a quote?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        You can contact us via our website or email. After
+                        understanding your requirements, we’ll share a transparent
+                        and competitive quote.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="cta-video-section">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="cta-video">
+            <source src="assets/video/grain.mp4" type="video/mp4">
+        </video>
+
+        <!-- Overlay -->
+        <div class="cta-overlay"></div>
+
+        <!-- Content -->
+        <div class="cta-video-content">
+            <span class="cta-label">LET’S WORK TOGETHER</span>
+            <h2>Ready to Build Something<br>Exceptional?</h2>
+            <p>
+                Partner with us to create high-performance digital solutions
+                that elevate your brand and drive measurable results.
+            </p>
+
+            <div class="cta-buttons">
+                <a href="tel:+91**********" class="cta-btn primary">Contact Now</a>
+                <a href="services.html" class="cta-btn secondary">View Services</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- BRAND -->
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-icon">S</span>
+                    <span class="logo-text">Spensol</span>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ut elit tellus luctus.
+                </p>
+
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+
+            <!-- SERVICES -->
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Website Development</a></li>
+                    <li><a href="#">Software Development</a></li>
+                    <li><a href="#">Web Application Development</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                </ul>
+            </div>
+
+            <!-- COMPANY -->
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Google Map -->
+            <div class="footer-col">
+                <h4>Location</h4>
+                <ul>
+                    <li class="map-box">
+                        <iframe src="https://www.google.com/maps?q=Thrissur,Kerala,India&output=embed" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Spensol Creatives. All rights reserved.
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script>
+        const track = document.querySelector(".testimonial-track");
+        const cards = document.querySelectorAll(".testimonial-card");
+        let index = 0;
+
+        setInterval(() => {
+            index = (index + 1) % cards.length;
+            track.style.transform = `translateX(-${index * 100}%)`;
+        }, 4000);
+    </script>
+
+    <script>
+        const faqItems = document.querySelectorAll(".faq-item");
+
+        faqItems.forEach(item => {
+            const question = item.querySelector(".faq-question");
+
+            question.addEventListener("click", () => {
+                faqItems.forEach(i => {
+                    if (i !== item) i.classList.remove("active");
+                });
+                item.classList.toggle("active");
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
