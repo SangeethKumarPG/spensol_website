@@ -17,26 +17,6 @@
             color: #ffffff;
         }
 
-        header {
-            background: #f59a07;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #fff;
-        }
-
-        header .logo {
-            font-size: 24px;
-            font-weight: 600;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin-left: 20px;
-            font-weight: 500;
-        }
 
         .hero {
             height: 80vh;
@@ -94,15 +74,23 @@
 
 <body>
     <header>
-        <div class="logo">Spensol Creatives</div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about_us.html">About Us</a>
-            <a href="services.html">Services</a>
-            <a href="#">Blog</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+  <div class="logo">Spensol Creatives</div>
+
+  <!-- Hamburger -->
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="about_us.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="#">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
 
 <section class="page-hero">
@@ -120,90 +108,151 @@
 <section class="lux-services">
   <div class="lux-container">
 
-    <!-- Section Header -->
     <div class="lux-header">
       <h2>Our Elite Services</h2>
       <div class="lux-line"></div>
     </div>
 
-    <!-- Services Grid -->
     <div class="lux-grid">
 
-      <!-- Card 1 -->
+      <!-- CARD 1 -->
       <div class="lux-card">
         <div class="lux-image">
-          <img src="assets/images/image1.png" alt="Web Development">
+          <img src="assets/images/e-commerce.png" alt="E-Commerce Solutions">
         </div>
         <div class="lux-content">
-          <h3>Advanced Web Solutions</h3>
-          <p>High-performance, scalable websites built to elevate your brand online.</p>
-          <a href="#" class="lux-link">Discover More →</a>
+          <h3>E-Commerce Solutions</h3>
+          <p>
+            We design and develop secure, scalable, and conversion-focused e-commerce platforms with seamless payment integration, intuitive user experiences, inventory management, and performance optimization to help businesses increase online sales and grow sustainably.
+          </p>
+          <a 
+            href="https://wa.me/918714576003?text=Need%20to%20know%20more%20about%20the%20service:%20E-Commerce%20Solutions" 
+            class="lux-btn" 
+            target="_blank">
+            Get Now
+          </a>
         </div>
       </div>
 
-      <!-- Card 2 -->
+      <!-- CARD 2 -->
       <div class="lux-card">
         <div class="lux-image">
-          <img src="assets/images/image1.png" alt="Mobile App Development">
+          <img src="assets/images/Custom Software Development.png" alt="Custom Software Development">
         </div>
         <div class="lux-content">
-          <h3>Mobile App Innovation</h3>
-          <p>Intuitive Android & iOS apps delivering smooth and powerful experiences.</p>
-          <a href="#" class="lux-link">Discover More →</a>
+          <h3>Custom Software Development</h3>
+          <p>
+            We build tailor-made software solutions aligned with your unique business workflows, operational requirements, and long-term goals, ensuring improved efficiency, flexibility, scalability, and seamless integration with existing systems.
+          </p>
+          <a 
+            href="https://wa.me/918714576003?text=Need%20to%20know%20more%20about%20the%20service:%20Custom%20Software%20Development" 
+            class="lux-btn" 
+            target="_blank">
+            Get Now
+          </a>
         </div>
       </div>
 
-      <!-- Card 3 -->
+      <!-- CARD 3 -->
       <div class="lux-card">
         <div class="lux-image">
-          <img src="assets/images/image1.png" alt="UI UX Design">
+          <img src="assets/images/AI-Integrated Digital Solutions.png" alt="AI Digital Solutions">
         </div>
         <div class="lux-content">
-          <h3>UI/UX Excellence</h3>
-          <p>Premium interface designs focused on usability, beauty, and conversion.</p>
-          <a href="#" class="lux-link">Discover More →</a>
+          <h3>AI-Integrated Digital Solutions</h3>
+          <p>
+            Our AI-powered digital solutions include intelligent chatbots, workflow automation, predictive analytics, and personalized user experiences that enhance decision-making, improve customer engagement, and drive measurable business growth.
+          </p>
+          <a 
+            href="https://wa.me/918714576003?text=Need%20to%20know%20more%20about%20the%20service:%20AI-Integrated%20Digital%20Solutions" 
+            class="lux-btn" 
+            target="_blank">
+            Get Now
+          </a>
         </div>
       </div>
 
-      <!-- Card 4 -->
+      <!-- CARD 4 -->
       <div class="lux-card">
         <div class="lux-image">
-          <img src="assets/images/image1.png" alt="Digital Marketing">
+          <img src="assets/images/Web Application Development.png" alt="Web Application Development">
         </div>
         <div class="lux-content">
-          <h3>Digital Growth Engine</h3>
-          <p>SEO, paid ads, and branding strategies that scale your business faster.</p>
-          <a href="#" class="lux-link">Discover More →</a>
+          <h3>Web Application Development</h3>
+          <p>
+            We develop high-performance, scalable, and secure web applications using modern technologies, ensuring fast load times, responsive interfaces, robust architecture, and seamless functionality across all devices and browsers.
+          </p>
+          <a 
+            href="https://wa.me/918714576003?text=Need%20to%20know%20more%20about%20the%20service:%20Web%20Application%20Development" 
+            class="lux-btn" 
+            target="_blank">
+            Get Now
+          </a>
         </div>
       </div>
 
-      <!-- Card 5 -->
+      <!-- CARD 5 -->
       <div class="lux-card">
         <div class="lux-image">
-          <img src="assets/images/image1.png" alt="Branding">
+          <img src="assets/images/Mobile Application Development.png" alt="Mobile Application Development">
         </div>
         <div class="lux-content">
-          <h3>Creative Brand Identity</h3>
-          <p>Luxury branding and graphics that make your business unforgettable.</p>
-          <a href="#" class="lux-link">Discover More →</a>
+          <h3>Mobile Application Development</h3>
+          <p>
+            We create user-friendly, high-quality mobile applications focused on performance, security, and usability, delivering smooth experiences across Android and iOS platforms while supporting scalability and future feature expansion.
+          </p>
+          <a 
+            href="https://wa.me/918714576003?text=Need%20to%20know%20more%20about%20the%20service:%20Mobile%20Application%20Development" 
+            class="lux-btn" 
+            target="_blank">
+            Get Now
+          </a>
         </div>
       </div>
 
-      <!-- Card 6 -->
+      <!-- CARD 6 -->
       <div class="lux-card">
         <div class="lux-image">
-          <img src="assets/images/image1.png" alt="Web Development">
+          <img src="assets/images/Business Automation & Digitization.png" alt="Business Automation">
         </div>
         <div class="lux-content">
-          <h3>Advanced Web Solutions</h3>
-          <p>High-performance, scalable websites built to elevate your brand online.</p>
-          <a href="#" class="lux-link">Discover More →</a>
+          <h3>Business Automation & Digitization</h3>
+          <p>
+            We automate manual processes through intelligent systems, custom dashboards, and integrated workflows, helping businesses reduce operational costs, minimize errors, improve productivity, and achieve faster, data-driven decision-making.
+          </p>
+          <a 
+            href="https://wa.me/918714576003?text=Need%20to%20know%20more%20about%20the%20service:%20Business%20Automation%20&%20Digitization" 
+            class="lux-btn" 
+            target="_blank">
+            Get Now
+          </a>
         </div>
       </div>
+
+      <!-- CARD 7 -->
+      <div class="lux-card">
+        <div class="lux-image">
+          <img src="assets/images/Maintenance & Technical Support.png" alt="Maintenance & Technical Support">
+        </div>
+        <div class="lux-content">
+          <h3>Maintenance & Technical Support</h3>
+          <p>
+            We provide reliable ongoing maintenance and technical support, including performance monitoring, security updates, bug fixes, and technology upgrades, ensuring your digital systems remain stable, secure, and optimized at all times.
+          </p>
+          <a 
+            href="https://wa.me/918714576003?text=Need%20to%20know%20more%20about%20the%20service:%20Maintenance%20and%20Technical%20Support" 
+            class="lux-btn" 
+            target="_blank">
+            Get Now
+          </a>
+        </div>
+      </div>
+
 
     </div>
   </div>
 </section>
+
 
 
 
@@ -235,70 +284,73 @@
 </section>
 
     <footer class="footer">
-        <div class="footer-container">
+  <div class="footer-container">
 
-            <!-- BRAND -->
-            <div class="footer-brand">
-                <div class="logo">
-                    <span class="logo-icon">S</span>
-                    <span class="logo-text">Spensol</span>
-                </div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Ut elit tellus luctus.
-                </p>
+    <!-- BRAND -->
+    <div class="footer-brand">
+      <img src="assets/images/logo.png" alt="Spensol Logo">
 
-                <div class="footer-social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                </div>
-            </div>
+      <p>
+        Spensol specializes in innovative digital solutions, helping
+        businesses grow through technology, automation, and modern web
+        development.
+      </p>
 
-            <!-- SERVICES -->
-            <div class="footer-col">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="#">Website Development</a></li>
-                    <li><a href="#">Software Development</a></li>
-                    <li><a href="#">Web Application Development</a></li>
-                    <li><a href="#">UI/UX Design</a></li>
-                    <li><a href="#">Digital Marketing</a></li>
-                </ul>
-            </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
 
-            <!-- COMPANY -->
-            <div class="footer-col">
-                <h4>Company</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about_us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
+    <!-- USEFUL LINKS -->
+    <div class="footer-col">
+      <h4>Useful Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
 
-            <!-- Google Map -->
-            <div class="footer-col">
-                <h4>Location</h4>
-                <ul>
-                    <li class="map-box">
-                        <iframe src="https://www.google.com/maps?q=Thrissur,Kerala,India&output=embed" loading="lazy"
+    <!-- CONTACT -->
+    <div class="footer-col">
+      <h4>Contact</h4>
+
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Mathilakam, Kodungallor,<br>Thrissur</span>
+      </div>
+
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <span>info@spensol.com</span>
+      </div>
+
+      <div class="contact-item">
+        <i class="fas fa-phone"></i>
+        <span>+91 8714576003</span>
+      </div>
+    </div>
+
+    <!-- LOCATION -->
+    <div class="footer-col">
+      <h4>Location</h4>
+      <div class="map-box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3925.7198852113775!2d76.1428056!3d10.2841389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDE3JzAyLjkiTiA3NsKwMDgnMzQuMSJF!5e0!3m2!1sen!2sqa!4v1768812331143!5m2!1sen!2sqa" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
-                    </li>
-                </ul>
-            </div>
+      </div>
+    </div>
 
+  </div>
 
-        </div>
-
-        <div class="footer-bottom">
-            © 2025 Spensol Creatives. All rights reserved.
-        </div>
-    </footer>
+  <div class="footer-bottom">
+    © 2026 <a href = "index.html">Spensol Creatives</a>. All rights reserved.
+  </div>
+</footer>
 
 
     <script src="script.js"></script>

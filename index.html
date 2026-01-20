@@ -17,7 +17,7 @@
       color: #ffffff;
     }
 
-    header {
+    /* header {
       background: #f59a07;
       padding: 20px;
       display: flex;
@@ -36,7 +36,7 @@
       text-decoration: none;
       margin-left: 20px;
       font-weight: 500;
-    }
+    } */
 
     .hero {
       height: 80vh;
@@ -94,15 +94,24 @@
 
 <body>
   <header>
-    <div class="logo">Spensol Creatives</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about_us.html">About Us</a>
-      <a href="services.html">Services</a>
-      <a href="#">Blog</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+  <div class="logo">Spensol Creatives</div>
+
+  <!-- Hamburger -->
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="about_us.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="#">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
   <section class="hero">
     <div>
       <h1>We Build Digital Experiences</h1>
@@ -178,7 +187,7 @@
   <section class="services-section" id="services">
     <div class="services-header">
       <span class="services-label">WHAT WE DO</span>
-      <h2>Services We Provide<br>To Our Clients</h2>
+      <h2>Quality Services That <br>We Provide</h2>
       <p>
         Intelligent, scalable and performance-driven digital services
         designed to help your business grow faster.
@@ -190,64 +199,56 @@
         <div class="service-icon">
           <i class="fa-solid fa-code"></i>
         </div>
-        <h3>Web Development</h3>
-        <p>Custom, responsive, and scalable websites tailored to your business needs.</p>
+        <h3>E-Commerce Solutions</h3>
+        <p>Design and development of secure, scalable, and conversion-focused e-commerce platforms.</p>
       </div>
 
       <div class="service animate-card delay-1">
         <div class="service-icon">
           <i class="fa-solid fa-mobile-screen-button"></i>
         </div>
-        <h3>App Development</h3>
-        <p>Innovative mobile apps built with the latest technologies.</p>
+        <h3>Custom Software Development</h3>
+        <p>Tailor-made software solutions built around your unique business workflows and goals.</p>
       </div>
 
       <div class="service animate-card delay-2">
         <div class="service-icon">
           <i class="fa-solid fa-pen-ruler"></i>
         </div>
-        <h3>UI/UX Design</h3>
-        <p>Beautiful, user-friendly designs that enhance customer experience.</p>
+        <h3>AI-Integrated Digital Solutions</h3>
+        <p>Smart AI-powered systems including chatbots, automation, personalization, and analytics.</p>
       </div>
 
       <div class="service animate-card delay-2">
         <div class="service-icon">
           <i class="fa-solid fa-pen-ruler"></i>
         </div>
-        <h3>Digital Marketing</h3>
-        <p>Beautiful, user-friendly designs that enhance customer experience.</p>
+        <h3>Web Application Development</h3>
+        <p>High-performance, scalable, and secure web applications using modern technologies.</p>
       </div>
 
       <div class="service animate-card delay-2">
         <div class="service-icon">
           <i class="fa-solid fa-pen-ruler"></i>
         </div>
-        <h3>Digital Marketing</h3>
-        <p>Beautiful, user-friendly designs that enhance customer experience.</p>
+        <h3>Mobile Application Development</h3>
+        <p>User-friendly, high-quality mobile apps focused on performance, security, and usability.</p>
       </div>
 
       <div class="service animate-card delay-1">
         <div class="service-icon">
           <i class="fa-solid fa-mobile-screen-button"></i>
         </div>
-        <h3>App Development</h3>
-        <p>Innovative mobile apps built with the latest technologies.</p>
+        <h3>Business Automation & Digitization</h3>
+        <p>Automation of manual processes through intelligent systems and custom dashboards.</p>
       </div>
 
       <div class="service animate-card">
         <div class="service-icon">
           <i class="fa-solid fa-code"></i>
         </div>
-        <h3>Web Development</h3>
-        <p>Custom, responsive, and scalable websites tailored to your business needs.</p>
-      </div>
-
-      <div class="service animate-card delay-2">
-        <div class="service-icon">
-          <i class="fa-solid fa-pen-ruler"></i>
-        </div>
-        <h3>UI/UX Design</h3>
-        <p>Beautiful, user-friendly designs that enhance customer experience.</p>
+        <h3>Maintenance & Technical Support</h3>
+        <p>Ongoing system support, performance optimization, and technology upgrades</p>
       </div>
 
     </div>
@@ -273,10 +274,11 @@
             <i class="fa-solid fa-envelope"></i>
           </div>
           <div>
-            <h4>SEO Optimization</h4>
+            <h4>EAI-Powered Business Analysis</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Ut elit tellus, luctus nec ullamcorper mattis.
+              We analyze your business processes, customer behavior, and market data using 
+              intelligent insights to define the right digital and AI strategy aligned with your 
+              growth goals.
             </p>
           </div>
         </div>
@@ -286,10 +288,10 @@
             <i class="fa-solid fa-bell"></i>
           </div>
           <div>
-            <h4>Social Engagement</h4>
+            <h4>Intelligent Digital Development</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Ut elit tellus, luctus nec ullamcorper mattis.
+              We build AI-integrated websites, custom software, and mobile applications with 
+              automation, smart workflows, and scalable architecture tailored to your business needs.
             </p>
           </div>
         </div>
@@ -299,10 +301,10 @@
             <i class="fa-solid fa-file-lines"></i>
           </div>
           <div>
-            <h4>Content Marketing</h4>
+            <h4>Optimization, Automation & Scaling</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Ut elit tellus, luctus nec ullamcorper mattis.
+              We continuously optimize performance using AI analytics, automate operations, and 
+              scale systems to improve efficiency, customer experience, and long-term growth.
             </p>
           </div>
         </div>
@@ -416,7 +418,7 @@
       </p>
 
       <div class="cta-buttons">
-        <a href="tel:+91**********" class="cta-btn primary">Contact Now</a>
+        <a href="tel:+918714576003" class="cta-btn primary">Contact Now</a>
         <a href="services.html" class="cta-btn secondary">View Services</a>
       </div>
     </div>
@@ -426,73 +428,78 @@
 
 
   <footer class="footer">
-    <div class="footer-container">
+  <div class="footer-container">
 
-      <!-- BRAND -->
-      <div class="footer-brand">
-        <div class="logo">
-          <span class="logo-icon">S</span>
-          <span class="logo-text">Spensol</span>
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Ut elit tellus luctus.
-        </p>
+    <!-- BRAND -->
+    <div class="footer-brand">
+      <img src="assets/images/logo.png" alt="Spensol Logo">
 
-        <div class="footer-social">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-pinterest-p"></i></a>
-        </div>
+      <p>
+        Spensol specializes in innovative digital solutions, helping
+        businesses grow through technology, automation, and modern web
+        development.
+      </p>
+
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
       </div>
-
-      <!-- SERVICES -->
-      <div class="footer-col">
-        <h4>Services</h4>
-        <ul>
-          <li><a href="#">Website Development</a></li>
-          <li><a href="#">Software Development</a></li>
-          <li><a href="#">Web Application Development</a></li>
-          <li><a href="#">UI/UX Design</a></li>
-          <li><a href="#">Digital Marketing</a></li>
-        </ul>
-      </div>
-
-      <!-- COMPANY -->
-      <div class="footer-col">
-        <h4>Company</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about_us.html">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </div>
-
-      <!-- Google Map -->
-      <div class="footer-col">
-        <h4>Location</h4>
-        <ul>
-          <li class="map-box">
-            <iframe src="https://www.google.com/maps?q=Thrissur,Kerala,India&output=embed" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </li>
-        </ul>
-      </div>
-
-
     </div>
 
-    <div class="footer-bottom">
-      © 2025 Spensol Creatives. All rights reserved.
+    <!-- USEFUL LINKS -->
+    <div class="footer-col">
+      <h4>Useful Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
-  </footer>
+
+    <!-- CONTACT -->
+    <div class="footer-col">
+      <h4>Contact</h4>
+
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Mathilakam, Kodungallor,<br>Thrissur</span>
+      </div>
+
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <span>info@spensol.com</span>
+      </div>
+
+      <div class="contact-item">
+        <i class="fas fa-phone"></i>
+        <span>+91 8714576003</span>
+      </div>
+    </div>
+
+    <!-- LOCATION -->
+    <div class="footer-col">
+      <h4>Location</h4>
+      <div class="map-box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3925.7198852113775!2d76.1428056!3d10.2841389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDE3JzAyLjkiTiA3NsKwMDgnMzQuMSJF!5e0!3m2!1sen!2sqa!4v1768812331143!5m2!1sen!2sqa" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 <a href = "index.html">Spensol Creatives</a>. All rights reserved.
+  </div>
+</footer>
 
 
   <script src="script.js"></script>
+  
+
 </body>
 
 </html>

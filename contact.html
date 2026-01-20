@@ -17,26 +17,6 @@
             color: #ffffff;
         }
 
-        header {
-            background: #f59a07;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #fff;
-        }
-
-        header .logo {
-            font-size: 24px;
-            font-weight: 600;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin-left: 20px;
-            font-weight: 500;
-        }
 
         .hero {
             height: 80vh;
@@ -94,15 +74,23 @@
 
 <body>
     <header>
-        <div class="logo">Spensol Creatives</div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about_us.html">About Us</a>
-            <a href="services.html">Services</a>
-            <a href="#">Blog</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+  <div class="logo">Spensol Creatives</div>
+
+  <!-- Hamburger -->
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="about_us.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="#">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
 
 
@@ -206,70 +194,73 @@
 
 
     <footer class="footer">
-        <div class="footer-container">
+  <div class="footer-container">
 
-            <!-- BRAND -->
-            <div class="footer-brand">
-                <div class="logo">
-                    <span class="logo-icon">S</span>
-                    <span class="logo-text">Spensol</span>
-                </div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Ut elit tellus luctus.
-                </p>
+    <!-- BRAND -->
+    <div class="footer-brand">
+      <img src="assets/images/logo.png" alt="Spensol Logo">
 
-                <div class="footer-social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                </div>
-            </div>
+      <p>
+        Spensol specializes in innovative digital solutions, helping
+        businesses grow through technology, automation, and modern web
+        development.
+      </p>
 
-            <!-- SERVICES -->
-            <div class="footer-col">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="#">Website Development</a></li>
-                    <li><a href="#">Software Development</a></li>
-                    <li><a href="#">Web Application Development</a></li>
-                    <li><a href="#">UI/UX Design</a></li>
-                    <li><a href="#">Digital Marketing</a></li>
-                </ul>
-            </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
 
-            <!-- COMPANY -->
-            <div class="footer-col">
-                <h4>Company</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about_us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
+    <!-- USEFUL LINKS -->
+    <div class="footer-col">
+      <h4>Useful Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
 
-            <!-- Google Map -->
-            <div class="footer-col">
-                <h4>Location</h4>
-                <ul>
-                    <li class="map-box">
-                        <iframe src="https://www.google.com/maps?q=Thrissur,Kerala,India&output=embed" loading="lazy"
+    <!-- CONTACT -->
+    <div class="footer-col">
+      <h4>Contact</h4>
+
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Mathilakam, Kodungallor,<br>Thrissur</span>
+      </div>
+
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <span>info@spensol.com</span>
+      </div>
+
+      <div class="contact-item">
+        <i class="fas fa-phone"></i>
+        <span>+91 8714576003</span>
+      </div>
+    </div>
+
+    <!-- LOCATION -->
+    <div class="footer-col">
+      <h4>Location</h4>
+      <div class="map-box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3925.7198852113775!2d76.1428056!3d10.2841389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDE3JzAyLjkiTiA3NsKwMDgnMzQuMSJF!5e0!3m2!1sen!2sqa!4v1768812331143!5m2!1sen!2sqa" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
-                    </li>
-                </ul>
-            </div>
+      </div>
+    </div>
 
+  </div>
 
-        </div>
-
-        <div class="footer-bottom">
-            © 2025 Spensol Creatives. All rights reserved.
-        </div>
-    </footer>
+  <div class="footer-bottom">
+    © 2026 <a href = "index.html">Spensol Creatives</a>. All rights reserved.
+  </div>
+</footer>
 
 
     <script src="script.js"></script>

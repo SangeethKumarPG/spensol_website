@@ -17,26 +17,7 @@
             color: #ffffff;
         }
 
-        header {
-            background: #f59a07;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #fff;
-        }
-
-        header .logo {
-            font-size: 24px;
-            font-weight: 600;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin-left: 20px;
-            font-weight: 500;
-        }
+        
 
         .hero {
             height: 80vh;
@@ -94,15 +75,23 @@
 
 <body>
     <header>
-        <div class="logo">Spensol Creatives</div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about_us.html">About Us</a>
-            <a href="services.html">Services</a>
-            <a href="#">Blog</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+  <div class="logo">Spensol Creatives</div>
+
+  <!-- Hamburger -->
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="about_us.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="#">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
 
     <section class="page-hero">
@@ -123,28 +112,22 @@
             <div class="about-content">
                 <span class="about-label">ABOUT SPENSOL CREATIVES</span>
                 <h2>
-                    Premium Digital Solutions.<br>
+                    Premium Digital Solutions<br>
                     Fast & Reliable.
                 </h2>
 
                 <p>
-                    We believe that powerful digital experiences create confidence and
-                    trust in today’s competitive market. With a passion for innovation
-                    and a commitment to excellence, we deliver professional IT and
-                    creative solutions tailored for modern businesses.
+                    SPENSOL PVT. LTD. is a technology-driven service providing company dedicated to delivering innovative, scalable, and result-oriented digital solutions for businesses of all sizes. We specialize in web development, mobile applications, custom software, AI-powered systems, and business automation tailored to modern enterprise needs.
                 </p>
 
                 <p>
-                    Since our establishment, we’ve built a reputation for quality,
-                    reliability, and performance. From websites and applications to
-                    branding and digital marketing, every project is handled with
-                    precision, creativity, and care.
+                    With a strong focus on quality, security, and performance, our team combines technical expertise with strategic thinking to create solutions that enhance efficiency, improve customer engagement, and support long-term business growth. At Spensol PVT. LTD, we believe in building reliable digital ecosystems that help brands adapt, compete, and succeed in an evolving digital landscape.
                 </p>
             </div>
 
             <!-- RIGHT IMAGE -->
             <div class="about-image">
-                <img src="assets/images/image1.png" alt="About Spensol Creatives">
+                <img src="assets/images/about page.png" alt="About Spensol Creatives">
             </div>
 
         </div>
@@ -162,9 +145,7 @@
                 </div>
                 <h3>VISION</h3>
                 <p>
-                    To be the leading provider of environmentally responsible solutions,
-                    pioneering innovation, efficiency, and industry standards that
-                    support a cleaner, more sustainable future.
+                    To be a leading provider of AI-integrated digital solutions, empowering businesses worldwide to achieve sustainable growth, innovation, and unprecedented success.
                 </p>
             </div>
 
@@ -175,9 +156,7 @@
                 </div>
                 <h3>MISSION</h3>
                 <p>
-                    To deliver reliable, transparent, and sustainable services through
-                    operational excellence, advanced capabilities, and a strong
-                    commitment to safety, responsibility, and customer satisfaction.
+                    To deliver innovative, effective, and scalable digital solutions that drive business growth, enhance efficiency, and create lasting value for our clients worldwide.
                 </p>
             </div>
 
@@ -199,61 +178,52 @@
 
 
     <section class="why-choose">
-        <div class="why-container">
+  <div class="why-header">
+    <span class="why-label">WHY CHOOSE US</span>
+    <h2>Trusted Professionals Delivering Excellence</h2>
+  </div>
 
-            <!-- LEFT IMAGE -->
-            <div class="why-image">
-                <img src="assets/images/image1.png" alt="Professional Service">
-            </div>
+  <div class="why-grid">
 
-            <!-- RIGHT CONTENT -->
-            <div class="why-content">
-                <span class="why-label">WHY CHOOSE US</span>
-                <h2>Trust the professionals for a clean and polished finish</h2>
+    <div class="why-item">
+      <i class="fa-solid fa-lightbulb"></i>
+      <h4>Innovative Solutions</h4>
+      <p>
+        We leverage the latest technologies to create cutting-edge, scalable,
+        and future-ready solutions.
+      </p>
+    </div>
 
-                <div class="why-grid">
+    <div class="why-item">
+      <i class="fa-solid fa-users-gear"></i>
+      <h4>Expert Team</h4>
+      <p>
+        A highly skilled team of professionals dedicated to delivering
+        excellence and consistent quality.
+      </p>
+    </div>
 
-                    <div class="why-item">
-                        <i class="fa-solid fa-user-check"></i>
-                        <h4>Expertise</h4>
-                        <p>Trusted professionals with extensive experience in premium services.</p>
-                    </div>
+    <div class="why-item">
+      <i class="fa-solid fa-handshake"></i>
+      <h4>Client-Centric Approach</h4>
+      <p>
+        We prioritize client goals, maintain transparency, and work closely
+        to ensure long-term success.
+      </p>
+    </div>
 
-                    <div class="why-item">
-                        <i class="fa-solid fa-gem"></i>
-                        <h4>Quality Service</h4>
-                        <p>Customer-first approach with attention to every detail.</p>
-                    </div>
+    <div class="why-item">
+      <i class="fa-solid fa-chart-line"></i>
+      <h4>Proven Results</h4>
+      <p>
+        A strong track record of successful projects, measurable outcomes,
+        and satisfied clients.
+      </p>
+    </div>
 
-                    <div class="why-item">
-                        <i class="fa-solid fa-shield-halved"></i>
-                        <h4>Reliability</h4>
-                        <p>Consistent and dependable services you can always trust.</p>
-                    </div>
+  </div>
+</section>
 
-                    <div class="why-item">
-                        <i class="fa-solid fa-tags"></i>
-                        <h4>Competitive Pricing</h4>
-                        <p>Fair and transparent pricing with maximum value.</p>
-                    </div>
-
-                    <div class="why-item">
-                        <i class="fa-solid fa-eye"></i>
-                        <h4>Transparent Operations</h4>
-                        <p>Clear communication and honest service delivery.</p>
-                    </div>
-
-                    <div class="why-item">
-                        <i class="fa-solid fa-thumbs-up"></i>
-                        <h4>Great Results</h4>
-                        <p>Professional results that exceed expectations.</p>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </section>
 
 
     <section class="testimonials-section">
@@ -422,70 +392,73 @@
 
 
     <footer class="footer">
-        <div class="footer-container">
+  <div class="footer-container">
 
-            <!-- BRAND -->
-            <div class="footer-brand">
-                <div class="logo">
-                    <span class="logo-icon">S</span>
-                    <span class="logo-text">Spensol</span>
-                </div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Ut elit tellus luctus.
-                </p>
+    <!-- BRAND -->
+    <div class="footer-brand">
+      <img src="assets/images/logo.png" alt="Spensol Logo">
 
-                <div class="footer-social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                </div>
-            </div>
+      <p>
+        Spensol specializes in innovative digital solutions, helping
+        businesses grow through technology, automation, and modern web
+        development.
+      </p>
 
-            <!-- SERVICES -->
-            <div class="footer-col">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="#">Website Development</a></li>
-                    <li><a href="#">Software Development</a></li>
-                    <li><a href="#">Web Application Development</a></li>
-                    <li><a href="#">UI/UX Design</a></li>
-                    <li><a href="#">Digital Marketing</a></li>
-                </ul>
-            </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
 
-            <!-- COMPANY -->
-            <div class="footer-col">
-                <h4>Company</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about_us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
+    <!-- USEFUL LINKS -->
+    <div class="footer-col">
+      <h4>Useful Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
 
-            <!-- Google Map -->
-            <div class="footer-col">
-                <h4>Location</h4>
-                <ul>
-                    <li class="map-box">
-                        <iframe src="https://www.google.com/maps?q=Thrissur,Kerala,India&output=embed" loading="lazy"
+    <!-- CONTACT -->
+    <div class="footer-col">
+      <h4>Contact</h4>
+
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Mathilakam, Kodungallor,<br>Thrissur</span>
+      </div>
+
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <span>info@spensol.com</span>
+      </div>
+
+      <div class="contact-item">
+        <i class="fas fa-phone"></i>
+        <span>+91 8714576003</span>
+      </div>
+    </div>
+
+    <!-- LOCATION -->
+    <div class="footer-col">
+      <h4>Location</h4>
+      <div class="map-box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3925.7198852113775!2d76.1428056!3d10.2841389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDE3JzAyLjkiTiA3NsKwMDgnMzQuMSJF!5e0!3m2!1sen!2sqa!4v1768812331143!5m2!1sen!2sqa" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
-                    </li>
-                </ul>
-            </div>
+      </div>
+    </div>
 
+  </div>
 
-        </div>
-
-        <div class="footer-bottom">
-            © 2025 Spensol Creatives. All rights reserved.
-        </div>
-    </footer>
+  <div class="footer-bottom">
+    © 2026 <a href = "index.html">Spensol Creatives</a>. All rights reserved.
+  </div>
+</footer>
 
 
     <script src="script.js"></script>
